@@ -1,4 +1,4 @@
-public class SketchPenFactory implements Pen {
+public class SketchPenFactory implements PenAbstractFactory {
 
     public void createRefil() {
         Sponge s = new Sponge();

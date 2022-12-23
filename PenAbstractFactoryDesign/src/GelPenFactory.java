@@ -1,4 +1,4 @@
-public class GelPenFactory implements Pen {
+public class GelPenFactory implements PenAbstractFactory {
 
     public void createRefil() {
         Plastic p = new Plastic();
