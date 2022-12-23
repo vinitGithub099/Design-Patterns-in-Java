@@ -13,4 +13,12 @@ public class TicTacToe implements Prototype {
     public void getRecord() {
         System.out.println("TicTacToe Record");
     }
+
+    public void getRows() {
+        System.out.println("tict" + this.rows);
+    }
+
+    public void hello() {
+        System.out.println("Hello");
+    }
 }
