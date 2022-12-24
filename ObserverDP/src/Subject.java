@@ -14,7 +14,7 @@ public class Subject {
 
     public void notifysUsers() {
         for (Observer obj : obsArr) {
-            obj.update();
+            obj.notifyMessage();
         }
     }
 }
